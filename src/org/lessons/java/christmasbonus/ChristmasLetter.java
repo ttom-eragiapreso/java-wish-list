@@ -1,9 +1,6 @@
 package org.lessons.java.christmasbonus;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 public class ChristmasLetter {
     private String senderName;
@@ -77,5 +74,16 @@ public class ChristmasLetter {
             }
         }
         return desideriContati;
+    }
+
+    public Set<String> desideriUnici(){
+        Set<String> desideriUnivoci = new HashSet<>();
+
+        for (String desiderio :
+                wishList) {
+            desideriUnivoci.add(desiderio);
+        }
+
+        return desideriUnivoci;
     }
 }

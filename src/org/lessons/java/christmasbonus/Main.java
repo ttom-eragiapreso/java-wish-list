@@ -52,6 +52,6 @@ public class Main {
         }
 
         System.out.println(christmasLetter.contaDesideri());
-        System.out.println(wishList);
+        System.out.println(christmasLetter.desideriUnici());
     }
 }
