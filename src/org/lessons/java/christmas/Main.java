@@ -16,6 +16,19 @@ public class Main {
             exit = !scan.nextLine().equalsIgnoreCase("y");
         }
 
+        System.out.println("Awesome, what is your name?");
+        String senderName = scan.nextLine();
+        System.out.println("Finally, what is your address?");
+        String senderAddress = scan.nextLine();
+
+        ChristmasLetter christmasLetter = new ChristmasLetter(senderName, senderAddress, wishList);
+
+        try{
+            System.out.println(christmasLetter.send());
+        }catch (RuntimeException e){
+            System.out.println(e.getMessage());
+        }
+
         Collections.sort(wishList);
         System.out.println(wishList);
     }
