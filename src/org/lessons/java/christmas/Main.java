@@ -1,8 +1,6 @@
 package org.lessons.java.christmas;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +16,7 @@ public class Main {
             exit = !scan.nextLine().equalsIgnoreCase("y");
         }
 
+        Collections.sort(wishList);
         System.out.println(wishList);
     }
 }
