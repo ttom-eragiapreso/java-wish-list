@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7970b742-ccbe-4e36-b72e-65ed907d93aa" name="Changes" comment="finito mio bonus">
+    <list default="true" id="7970b742-ccbe-4e36-b72e-65ed907d93aa" name="Changes" comment="cambiato isGood inizializzato al costruttore">
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/christmasbonus/ChristmasLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/christmasbonus/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/christmasbonus/TooManyWishesException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/christmas/ChristmasLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/christmas/ChristmasLetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +35,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/enricomichelotto/Documents/PROGRAMMING/JAVA/JavaWishList/src/org/lessons/java/christmasbonus"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/org/lessons/java/christmasbonus" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.lessons.java.christmas" />
     </key>
@@ -85,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678976040965</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cambiato isGood inizializzato al costruttore">
+      <created>1678976534343</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678976534343</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -94,6 +107,7 @@
     <MESSAGE value="Creata lista e stampata in ordine alfabetico" />
     <MESSAGE value="finito" />
     <MESSAGE value="finito mio bonus" />
-    <option name="LAST_COMMIT_MESSAGE" value="finito mio bonus" />
+    <MESSAGE value="cambiato isGood inizializzato al costruttore" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambiato isGood inizializzato al costruttore" />
   </component>
 </project>
