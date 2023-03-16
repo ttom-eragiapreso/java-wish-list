@@ -25,7 +25,26 @@ public class Main {
 
         try{
             System.out.println(christmasLetter.send());
-        }catch (RuntimeException e){
+        }catch(TooManyWishesException e){
+            System.out.println(e.getMessage());
+            System.out.println("You listed " + e.getWishes() + " wishes, but you're only allowed 5");
+            int difference = e.getWishes() - 5;
+            System.out.println("Based on my superior intelligence, you have to remove " + difference + " " +
+                    "wishes in order to send your letter");
+            for (int i = 1; i <= difference; i++) {
+                System.out.println("Which wish would you like to remove? (write the name of the wish to select it)");
+                System.out.println(christmasLetter.getPrintedList());
+                String wishToRemove = scan.nextLine();
+                wishList.remove(wishToRemove);
+            }
+            System.out.println("Awesome, let's try and send your letter again.");
+            try{
+                christmasLetter.send();
+            }catch(RuntimeException exception){
+                System.out.println(exception.getMessage());
+            }
+        }
+        catch (RuntimeException e){
             System.out.println(e.getMessage());
         }
 

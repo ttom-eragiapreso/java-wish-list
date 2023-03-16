@@ -43,7 +43,7 @@ public class ChristmasLetter {
         boolean isGood = rnd.nextBoolean();
 
         if(wishList.size() > 5){
-            throw new RuntimeException("I'm sorry, you were a bit too greedy.");
+            throw new TooManyWishesException("I'm sorry, you were a bit too greedy.", wishList.size());
         }
 
         if(!isGood){
@@ -51,5 +51,13 @@ public class ChristmasLetter {
         }
 
         return "Your Christmas Letter was sent successfully." + "Sender: " + getSenderName() + " - Address: " + getSenderAddress() + "\n" + getWishList();
+    }
+
+    public String getPrintedList(){
+        String printedList = "";
+        for (String s : wishList) {
+            printedList += s + "\n";
+        }
+        return printedList;
     }
 }
