@@ -8,7 +8,11 @@ public class ChristmasLetter {
     private String senderAddress;
     private List<String> wishList;
 
+    private boolean isGood;
+
     public ChristmasLetter(String senderName, String senderAddress, List<String> wishList) {
+        Random rnd = new Random();
+        boolean isGood = rnd.nextBoolean();
         this.senderName = senderName;
         this.senderAddress = senderAddress;
         this.wishList = wishList;
@@ -39,8 +43,6 @@ public class ChristmasLetter {
     }
 
     public String send(){
-        Random rnd = new Random();
-        boolean isGood = rnd.nextBoolean();
 
         if(wishList.size() > 5){
             throw new TooManyWishesException("I'm sorry, you were a bit too greedy.", wishList.size());
@@ -50,7 +52,7 @@ public class ChristmasLetter {
             throw new RuntimeException("I'm sorry, you were bad this year");
         }
 
-        return "Your Christmas Letter was sent successfully." + "Sender: " + getSenderName() + " - Address: " + getSenderAddress() + "\n" + getWishList();
+        return "Your Christmas Letter was sent successfully." + "Sender: " + getSenderName() + " - Address: " + getSenderAddress() + "\n" + getPrintedList();
     }
 
     public String getPrintedList(){

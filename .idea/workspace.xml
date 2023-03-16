@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7970b742-ccbe-4e36-b72e-65ed907d93aa" name="Changes" comment="finito">
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/christmas/TooManyWishesException.java" afterDir="false" />
+    <list default="true" id="7970b742-ccbe-4e36-b72e-65ed907d93aa" name="Changes" comment="finito mio bonus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/christmas/ChristmasLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/christmas/ChristmasLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/christmas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/christmas/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678974148164</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finito mio bonus">
+      <created>1678976040965</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678976040965</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -88,6 +93,7 @@
     <MESSAGE value="Creata lista e stampata com'è" />
     <MESSAGE value="Creata lista e stampata in ordine alfabetico" />
     <MESSAGE value="finito" />
-    <option name="LAST_COMMIT_MESSAGE" value="finito" />
+    <MESSAGE value="finito mio bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="finito mio bonus" />
   </component>
 </project>
